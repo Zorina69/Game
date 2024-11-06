@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+    width: 100vw;
+    height: 80vh;
+    background-image: url(HomePage1.png);
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    padding-right: 0px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.89;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+#profileGame{
+    width: 40px;
+    height: 40px;
+    border: 3px solid purple ;
+}
+#name{
+    width: 80px;
+    height: 20px;
+    background-color: plum;
+    border: 1px solid purple;
+}
+#level{
+    width: 80px;
+    height: 20px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+.money{
+    display: flex;
+    flex-direction: row;   
+    background-color: white;
+    height: 30px;
+    width: 350px;
+    padding-left: 0px;
+    gap: 5px;
+} 
+#money{
+    opacity: 1;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px 5px;
+}
+#item{
+    display: flex;
+    padding-top:5px;
+    padding-bottom: 2px;
+    width: 25px;
+    height: 25px;
+}
+#daimond{
+    display: flex;
+    padding-top: 6px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: pink;
+    /* transform: skew(20deg);*/
+   
+}
+#itemDaimond{
+    display: flex;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    width: 20px;
+    height: 20px;
+}
+#itemPlus1{
+    display: flex;
+    padding-top: 2px;
+    padding-left: 17px;
+    padding-bottom: 2px;
+    width: 20px;
+    height: 20px;
+}
+#coin{
+    display: flex;
+    padding-top: 6px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    background-color: pink;
+}
+#itemCoin{
+    display: flex;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    width: 20px;
+    height: 20px;
+}
+#itemPlus2{
+    display: flex;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    width: 20px;
+    height: 20px;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+}
+.event{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 1;
+}
+#ninja{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+#shop{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+#shopAl{
+    font-size: 14px;
+    color: white;
+}
+#event{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+#eventAl{
+    font-size: 14px;
+    color: white;
+}
+#starlight{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+#starlightAl{
+    font-size: 14px;
+    color: white;
+}
+#treasure{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+#treasureAl{
+    font-size: 14px;
+    color: white;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+}
+.bgPlayer{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+}
+.listPlayer{
+    display: flex;
+    border-right: 20px solid rgb(46, 46, 159);
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+    height: 100px;   
+}
+.playerName{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 10px;
+    width: 150px;
+    height: 202px;
+    background-color: rgb(46, 46, 159);
+    opacity: 0.8;
+}
+#namePlayer{
+    margin-left: 10px;
+    font-size:medium;
+    color: white;
+}
+#levelPlayer{
+    margin-left: 10px;
+    font-size:x-small;
+    color: yellow;
+}
+#offline{
+    margin-left: 10px;
+    font-size:x-small;
+    color: white;
+}
+#cross{
+    display: flex;
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+}
